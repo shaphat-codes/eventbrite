@@ -18,7 +18,7 @@ const EventDetailPage = (props) => {
 
   const getEventDetail = async () => {
         
-    const response = await fetch(`http://127.0.0.1:8000/event/${id}`,
+    const response = await fetch(`https://eventbrite-j311.onrender.com/event/${id}`,
     {
       method: 'GET',
       credentials: "include",
@@ -47,7 +47,7 @@ const EventDetailPage = (props) => {
 		
 		
 
-		let response = await fetch('http://127.0.0.1:8000/create-order/', {
+		let response = await fetch('https://eventbrite-j311.onrender.com/create-order/', {
 
 			method: 'POST',
       credentials: "include",

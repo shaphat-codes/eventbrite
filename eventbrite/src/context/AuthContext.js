@@ -31,7 +31,7 @@ export const AuthProvider = ({children}) => {
 		e.preventDefault()
 		
 
-		let response = await fetch('http://127.0.0.1:8000/users/login/', {
+		let response = await fetch('https://eventbrite-j311.onrender.com/users/login/', {
 
 			method: "POST",
 
@@ -65,7 +65,7 @@ export const AuthProvider = ({children}) => {
 		setIsLoading(true)
 		e.preventDefault()
 
-		let response = await fetch('http://127.0.0.1:8000/users/register/', {
+		let response = await fetch('https://eventbrite-j311.onrender.com/users/register/', {
 
 			method: 'POST',
 			headers:{

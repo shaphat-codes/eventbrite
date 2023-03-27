@@ -17,7 +17,7 @@ const DashboardEvents = () => {
   let getEvent = async ()=> {
     
     
-    let response =  await fetch(`http://127.0.0.1:8000/events/`, {
+    let response =  await fetch(`https://eventbrite-j311.onrender.com/events/`, {
         method: "GET",
         credentials: "include",
         headers: {

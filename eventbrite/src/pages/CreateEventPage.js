@@ -17,7 +17,7 @@ const CreateEventPage = () => {
 		
 		e.preventDefault()
 
-		let response = await fetch('http://127.0.0.1:8000/create-event/', {
+		let response = await fetch('https://eventbrite-j311.onrender.com/create-event/', {
 
 			method: 'POST',
       credentials: "include",
